@@ -1,6 +1,6 @@
 uuid: 6cc473ce-873f-4e9c-85fc-767857f1e6ee
 langcode: fr
-status: true
+status: false
 dependencies:
   module:
     - system
