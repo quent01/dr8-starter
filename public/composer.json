@@ -30,7 +30,7 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/better_exposed_filters": "^5.0",
         "drupal/block_class": "^1.1",
-        "drupal/bootstrap_barrio": "^4.25",
+        "drupal/bootstrap_barrio": "^5.5",
         "drupal/config_split": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.9",

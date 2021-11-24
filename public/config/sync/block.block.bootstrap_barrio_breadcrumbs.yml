@@ -1,15 +1,15 @@
-uuid: 4e795f78-4e05-4f52-a7a1-befdccf3b6c7
+uuid: ffa2cb9a-9d24-4692-be49-847a5b034356
 langcode: fr
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bootstrap_barrio
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
+id: bootstrap_barrio_breadcrumbs
+theme: bootstrap_barrio
 region: breadcrumb
 weight: 0
 provider: null
