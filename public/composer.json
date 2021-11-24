@@ -17,6 +17,10 @@
         "tiz": {
             "type": "composer",
             "url": "https://packages.tiz.fr"
+        },
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     },
     "require": {
@@ -98,12 +102,18 @@
                 "web-root": "web/"
             }
         },
+        "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"
