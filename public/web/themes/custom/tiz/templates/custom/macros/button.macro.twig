@@ -1,0 +1,3 @@
+{%- macro btn_reveal(str_class, target, txt_btn) -%}
+    <button type="button" class="{{str_class}}" data-toggle="collapse" data-target="{{target}}" aria-expanded="false" aria-control="{{txt_btn}}">{{txt_btn}}</button>
+{%- endmacro -%}

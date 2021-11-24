@@ -22,3 +22,4 @@ local.config.yml
 # /drupal.make.yml
 vendor
 /scripts/
+public/web/themes/custom/tiz/node_modules
