@@ -1,0 +1,11 @@
+parameters:
+    level: 8
+    checkMissingIterableValueType: false
+    paths:
+        - web/modules/custom
+        - web/themes/custom
+    # bootstrapFiles: 
+    #    - ./web/phpstan_autoload.php
+includes:
+	# Add the phpstan-drupal extension
+	- vendor/mglaman/phpstan-drupal/extension.neon
